@@ -1,0 +1,23 @@
+{
+    "name": "yaphp/framework",
+    "description": "YaPHP is a framework for PHP, from Yii2 soft framework.",
+    "keywords": [
+        "Ya",
+        "YaPHP",
+        "framework"
+    ],
+    "homepage": "http://www.yaphp.com.cn/",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "enlai",
+            "email": "enlai_he@163.com",
+            "homepage": "http://www.yaphp.com.cn/"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
+    }
+}

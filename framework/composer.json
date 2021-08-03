@@ -1,0 +1,33 @@
+{
+    "name": "yaphp/soft",
+    "description": "Ya PHP Framework Version 1.0.0",
+    "keywords": [
+        "Ya",
+        "YaPHP",
+        "framework"
+    ],
+    "homepage": "http://www.yaphp.com.cn/",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "enlai",
+            "email": "enlai_he@163.com",
+            "homepage": "http://www.yaphp.com.cn/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
+    },
+    "autoload": {
+        "psr-4": {"ya\\": ""}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
